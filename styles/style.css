@@ -58,20 +58,18 @@ body {
   text-decoration: none;
 }
 .cover {
-  padding: 50px;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 757px;
 }
-/* .overlay{
- position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  opacity: 1;
-} */
+.overlay{
+  background-color: rgba(0, 0, 0, 60%);
+}
+.cover__wrapper{
+  padding: 50px;
+}
 .cover__title {
   width: 1000px;
   height: 355px;
@@ -148,12 +146,11 @@ body {
   text-transform: uppercase;
 }
 .card{
-  /* display: grid; */
   width: 334px;
   height: 563px;
-  /* grid-template-columns: 1fr; */
-  /* align-items: center; */
-  /* gap: 25px; */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 .lots__card-list{
 display: grid;
@@ -184,12 +181,14 @@ gap: 25px;
   font-size: 22px;
   line-height: 26.4px;
   text-decoration: underline black;
+  color: white;
 }
 .card__text{
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
   text-decoration: none;
+  color: white;
 
 }
 .lots__look-more-link{
