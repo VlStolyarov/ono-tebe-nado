@@ -79,30 +79,36 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 100px;
-  line-height: 115px;
   text-transform: uppercase;
   z-index: 1;
   margin-top: 115px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
 }
 .aligned-text {
   display: block;
-  letter-spacing: 0.1px;
+  letter-spacing: 30px;
+  line-height: 115px;
 }
 
 .aligned-text_center {
   text-align: center;
-  letter-spacing: 0.1px;
+  letter-spacing: 30px;
   display: block;
+  line-height: 100px;
+  margin-left: -25px;
 }
 
 .aligned-text_right {
   text-align: right;
-  letter-spacing: 0.1px;
+  letter-spacing: 30px;
   display: block;
+  line-height: 100px;
 }
 .letter-spacing-extended{
-  letter-spacing: 59px;
+  margin-left: 30px;
 }
 .no-letter-spacing{
   letter-spacing: 0;
@@ -122,7 +128,7 @@ body {
   line-height: 28px;
   color: white;
   text-transform: uppercase;
-  word-spacing: 16px;
+  word-spacing: 19px;
   margin-left: 28px;
 }
 .cover__button{
