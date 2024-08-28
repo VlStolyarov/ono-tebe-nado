@@ -21,9 +21,11 @@ body {
 .header__logo-image {
   height: 100%;
 }
-.header__menu{
+
+.header__menu {
   justify-self: flex-end;
 }
+
 .header__menu-list {
   display: flex;
   column-gap: 32px;
@@ -46,17 +48,20 @@ body {
 .header__menu-link {
   text-decoration: none;
 }
-.header__address{
+
+.header__address {
   padding-left: 148px;
   font-size: 18px;
   line-height: 24.3px;
   font-style: normal;
 }
-.header__address-link{
+
+.header__address-link {
   padding-bottom: 1px;
   border-bottom: 1px black solid;
   text-decoration: none;
 }
+
 .cover {
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
@@ -64,16 +69,19 @@ body {
   background-size: cover;
   height: 757px;
 }
-.overlay{
+
+.overlay {
   background-color: rgba(0, 0, 0, 60%);
 }
-.cover__wrapper{
+
+.cover__wrapper {
   padding: 50px;
 }
+
 .cover__title {
   width: 1000px;
   height: 355px;
-  color:#FFFFFF;
+  color: #FFFFFF;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 100px;
@@ -85,6 +93,7 @@ body {
   justify-content: space-between;
 
 }
+
 .aligned-text {
   display: block;
   letter-spacing: 30px;
@@ -105,12 +114,15 @@ body {
   display: block;
   line-height: 100px;
 }
-.letter-spacing-extended{
+
+.letter-spacing-extended {
   margin-left: 30px;
 }
-.no-letter-spacing{
+
+.no-letter-spacing {
   letter-spacing: 0;
 }
+
 .cover__description {
   margin-top: 135px;
   display: flex;
@@ -129,7 +141,8 @@ body {
   word-spacing: 19px;
   margin-left: 28px;
 }
-.cover__button{
+
+.cover__button {
   color: white;
   text-transform: uppercase;
   border: solid 1px white;
@@ -139,63 +152,73 @@ body {
   text-align: center;
 }
 
-.lots{
+.lots {
   align-self: center;
   padding: 24px;
   padding-top: 179px;
 }
-.lots__heading{
+
+.lots__heading {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 40px;
   padding-left: 40px;
-  
+
 }
-.card{
+
+.card {
   width: 334px;
   height: 563px;
   display: flex;
   color: white;
-  
+
 }
-.card-list__wrapper{
+
+.card-list__wrapper {
   width: 334px;
   height: 563px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
-  
+
+
 }
-.lots__card-list{
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-gap: 25px;
-padding-top: 25px;
+
+.lots__card-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+  padding-top: 25px;
 }
-.lots__card-list-item{
+
+.lots__card-list-item {
   list-style: none;
 }
-.card-link{
+
+.card-link {
   display: block;
   text-decoration: none;
 }
-.card__type_film{
+
+.card__type_film {
   background-image: url("/images/card-lot-01.jpg");
   background-position: -120px 0px;
   background-size: cover;
 }
-.card__type_book{
+
+.card__type_book {
   background-image: url("/images/card-lot-02.jpg");
   background-position: -100px 0px;
   background-size: cover;
 }
-.card__type_picture{
+
+.card__type_picture {
   background-image: url("/images/card-lot-03.jpg");
   background-position: -100px 0px;
   background-size: cover;
 }
-.card__title{
+
+.card__title {
   display: block;
   /* margin: 51px 40px 0px 40px; */
   text-align: left;
@@ -205,16 +228,18 @@ padding-top: 25px;
   text-decoration: underline white;
   text-transform: uppercase;
 }
-.card__text{
+
+.card__text {
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
   text-decoration: none;
   display: flex;
-  
+
 
 }
-.lots__look-more-link{
+
+.lots__look-more-link {
   padding-bottom: 2px;
   text-decoration: none;
   border-bottom: 1px solid black;
@@ -225,6 +250,7 @@ padding-top: 25px;
   width: 192px;
   display: flex;
 }
+
 .about {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -290,17 +316,20 @@ padding-top: 25px;
   font-size: 18px;
   line-height: 24.3px;
 }
-.footer__address-link{
+
+.footer__address-link {
   padding-bottom: 1px;
   border-bottom: 1px black solid;
   text-decoration: none;
 }
-.footer__menu-list{
+
+.footer__menu-list {
   display: flex;
   flex-direction: column;
   align-items: center;
 
 }
+
 .footer__menu-item {
   list-style: none;
   border-bottom: 1px black solid;
