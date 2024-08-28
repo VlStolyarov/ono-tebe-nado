@@ -180,8 +180,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
-
+  padding: 51px 40px 48px;
 }
 
 .lots__card-list {
@@ -220,7 +219,6 @@ body {
 
 .card__title {
   display: block;
-  /* margin: 51px 40px 0px 40px; */
   text-align: left;
   font-weight: 700;
   font-size: 22px;
@@ -275,7 +273,6 @@ body {
 }
 
 .about__logo-image {
-  height: 100%;
   display: block;
   width: 148px;
   height: 114px;
