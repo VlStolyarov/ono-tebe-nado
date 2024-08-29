@@ -196,7 +196,7 @@
   text-decoration: none;
 }
 
-..card__type-book-styles{
+.card__type-book-styles{
   background-position: center;
   background-size: cover; 
 }
