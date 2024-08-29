@@ -37,12 +37,10 @@
 
 .header__menu-item:first-child {
   list-style: none;
-  padding-bottom: 0px;
-  border-bottom: none;
 }
 
-.header__menu-item_active .header__menu-item {
-  text-decoration: none;
+.header__menu-item_active {
+  border-bottom: none;
 }
 
 .header__menu-link {
@@ -51,23 +49,30 @@
 
 .header__address {
   padding-left: 148px;
+}
+.address {
   font-size: 18px;
   line-height: 24.3px;
   font-style: normal;
 }
-
-.header__address-link {
-  padding-bottom: 1px;
+.address__link {
   border-bottom: 1px black solid;
   text-decoration: none;
+  display: flex;
+  width: max-content;
+  height: 24px;
 }
-
+.address__street{
+  width: 237px;
+  min-height: 49px;
+  padding: 1px 2px 0px 1px;
+}
 .cover {
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-height: 100%;
+  min-height: 757px;
 }
 
 .overlay {
@@ -80,7 +85,7 @@
 
 .cover__title {
   width: 1000px;
-  height: 355px;
+  min-height: 355px;
   color: #FFFFFF;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -169,8 +174,6 @@
 }
 
 .card {
-  /* width: 334px;
-  height: 563px; */
   display: flex;
   color: white;
   background-position: center;
@@ -180,7 +183,7 @@
 
 .card-list__wrapper {
   width: 334px;
-  height: 563px;
+  min-height: 563px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -221,7 +224,6 @@
   text-align: left;
   font-weight: 700;
   font-size: 22px;
-  line-height: 26.4px;
   text-decoration: underline white;
   text-transform: uppercase;
 }
@@ -237,7 +239,6 @@
 }
 
 .lots__look-more-link {
-  padding-bottom: 2px;
   text-decoration: none;
   border-bottom: 1px solid black;
   font-size: 20px;
@@ -254,7 +255,7 @@
   grid-template-rows: 1fr auto;
   padding: 0 24px;
   gap: 8px 14px;
-  padding-top: 160px;
+  padding-top: 158px;
 
 
 }
@@ -306,11 +307,11 @@
   justify-content: space-between;
 }
 
-.footer__address {
+/* .footer__address {
   font-style: normal;
   font-size: 18px;
   line-height: 24.3px;
-}
+} */
 
 .footer__address-link {
   padding-bottom: 1px;
@@ -332,17 +333,13 @@
 
 }
 
-.footer__menu-item:first-child {
-  padding-bottom: 0px;
-  border-bottom: 0px;
-}
 
 .footer__menu-link {
   text-decoration: none;
 }
 
-.footer__menu-item_active .footer__menu-item {
-  text-decoration: none;
+.footer__menu-item_active {
+  border-bottom: none;
 }
 
 .footer__social-list {
