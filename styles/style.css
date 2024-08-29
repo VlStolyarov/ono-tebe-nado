@@ -50,11 +50,13 @@
 .header__address {
   padding-left: 148px;
 }
+
 .address {
   font-size: 18px;
   line-height: 24.3px;
   font-style: normal;
 }
+
 .address__link {
   border-bottom: 1px black solid;
   text-decoration: none;
@@ -62,11 +64,13 @@
   width: max-content;
   height: 24px;
 }
-.address__street{
+
+.address__street {
   width: 237px;
   min-height: 49px;
   padding: 1px 2px 0px 1px;
 }
+
 .cover {
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
