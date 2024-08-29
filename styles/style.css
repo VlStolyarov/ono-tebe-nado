@@ -171,6 +171,8 @@
   height: 563px; */
   display: flex;
   color: white;
+  background-position: center;
+  background-size: cover; 
 
 }
 
@@ -199,10 +201,6 @@
   text-decoration: none;
 }
 
-.card__type-book-styles {
-  background-position: center;
-  background-size: cover; 
-}
 
 .card__type_film {
   background-image: url("../images/card-lot-01.jpg");
