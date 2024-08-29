@@ -149,12 +149,13 @@
   font-size: 22px;
   text-align: center;
   font-family: "Raleway", sans-serif;
+  cursor: pointer
 }
 
 .lots {
   align-self: center;
   padding: 24px;
-  padding-top: 179px;
+  padding-top: 182px;
 }
 
 .lots__heading {
