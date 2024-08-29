@@ -164,16 +164,16 @@
 }
 
 .card {
-  width: 334px;
-  height: 563px;
+  /* width: 334px;
+  height: 563px; */
   display: flex;
   color: white;
 
 }
 
 .card-list__wrapper {
-  /* width: 334px;
-  height: 563px; */
+  width: 334px;
+  height: 563px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -196,22 +196,21 @@
   text-decoration: none;
 }
 
+..card__type-book-styles{
+  background-position: center;
+  background-size: cover; 
+}
+
 .card__type_film {
   background-image: url("../images/card-lot-01.jpg");
-  background-position: -120px 0px;
-  background-size: cover;
 }
 
 .card__type_book {
   background-image: url("../images/card-lot-02.jpg");
-  background-position: -100px 0px;
-  background-size: cover;
 }
 
 .card__type_picture {
   background-image: url("../images/card-lot-03.jpg");
-  background-position: -100px 0px;
-  background-size: cover;
 }
 
 .card__title {
