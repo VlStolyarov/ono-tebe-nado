@@ -40,7 +40,7 @@
   padding-bottom: 0px;
   border-bottom: none;
 }
-.header__menu-item_active .header__menu-item{
+.header__menu-item_active .header__menu-item {
   text-decoration: none;
 }
 .header__menu-link {
@@ -199,7 +199,7 @@
   text-decoration: none;
 }
 
-.card__type-book-styles{
+.card__type-book-styles {
   background-position: center;
   background-size: cover; 
 }
@@ -340,7 +340,7 @@
 .footer__menu-link {
   text-decoration: none;
 }
-.footer__menu-item_active .footer__menu-item{
+.footer__menu-item_active .footer__menu-item {
   text-decoration: none;
 }
 .footer__social-list {
