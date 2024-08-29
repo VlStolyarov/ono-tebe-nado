@@ -40,7 +40,9 @@
   padding-bottom: 0px;
   border-bottom: none;
 }
-
+.header__menu-item_active .header__menu-item{
+  text-decoration: none;
+}
 .header__menu-link {
   text-decoration: none;
 }
@@ -337,7 +339,9 @@
 .footer__menu-link {
   text-decoration: none;
 }
-
+.footer__menu-item_active .footer__menu-item{
+  text-decoration: none;
+}
 .footer__social-list {
   width: 240px;
   display: flex;
