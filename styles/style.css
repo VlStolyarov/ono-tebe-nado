@@ -62,12 +62,10 @@
   text-decoration: none;
   display: flex;
   width: max-content;
-  height: 24px;
 }
 
 .address__street {
   width: 237px;
-  min-height: 49px;
   padding: 1px 2px 0px 1px;
 }
 
@@ -89,7 +87,6 @@
 
 .cover__title {
   width: 1000px;
-  min-height: 355px;
   color: #FFFFFF;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -115,6 +112,7 @@
   display: block;
   line-height: 100px;
   margin-left: -25px;
+  margin-top: 20px;
 }
 
 .aligned-text_right {
@@ -122,6 +120,7 @@
   letter-spacing: 30px;
   display: block;
   line-height: 100px;
+  margin-top: 20px;
 }
 
 .letter-spacing-extended {
@@ -311,11 +310,6 @@
   justify-content: space-between;
 }
 
-/* .footer__address {
-  font-style: normal;
-  font-size: 18px;
-  line-height: 24.3px;
-} */
 
 .footer__address-link {
   padding-bottom: 1px;
@@ -362,9 +356,4 @@
 .footer__social-link {
   display: block;
   height: 100%;
-}
-
-.content-section-theme-white {
-  color: #000000;
-  background-color: #ffffff;
 }
